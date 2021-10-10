@@ -10,15 +10,16 @@ Wlan: Intel® Dual Band Wireless-AC8260
 ## Software
 MacOS Catalina 10.15.7 (Tested)  
 
-## What's work
-+ Touchpad (support Apple gesture)  
+## What's Working
++ Touchpad (Support gesture)  
 + Keyboard  
 + IGPU  
 + Audio  
 + WLAN (Low performence)  
++ Bluetooth
 + CD/ROM  
 
-## What's not work  
+## What's Not Working
 + NVIDIA® Quadro® M1000M  
 
 ## How to Fix CFG Lock  
@@ -28,4 +29,10 @@ Create a FAT32 volume on your USB flash disk, Create `EFI/Boot` directory, downl
 
 1. enter `setup_var 0x84A`, the value must be 0x01, then go next step.
 2. enter `setup_var 0x84A 0x00`.
+
+## Screenshot
+![image](https://user-images.githubusercontent.com/18544362/136685321-f2ebbe3b-8f1f-4943-b19a-a0093eae7446.png)
+![image](https://user-images.githubusercontent.com/18544362/136685296-9b45f24b-8d91-4529-a6c7-def81a0857f7.png)
+![image](https://user-images.githubusercontent.com/18544362/136685270-5e7ed714-08bf-49d3-8bb7-f839189ab832.png)
+
 
